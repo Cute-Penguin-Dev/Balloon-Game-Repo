@@ -4,3 +4,8 @@
 
 [node name="Icon" type="Sprite2D"]
 texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(128, 2)
+texture = ExtResource("1_4dtcg")
