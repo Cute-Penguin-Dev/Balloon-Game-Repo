@@ -1,11 +1,134 @@
-[gd_scene load_steps=2 format=3 uid="uid://qqm4wptti323"]
+[gd_scene load_steps=3 format=3 uid="uid://qqm4wptti323"]
 
 [ext_resource type="Texture2D" uid="uid://bb754qxgqydup" path="res://icon.svg" id="1_4dtcg"]
+[ext_resource type="Script" path="res://icon.gd" id="2_embmf"]
 
 [node name="Icon" type="Sprite2D"]
+position = Vector2(150.5, 44.5)
+scale = Vector2(3.35156, 1.69531)
+skew = 0.689405
 texture = ExtResource("1_4dtcg")
+script = ExtResource("2_embmf")
 
 [node name="Icon" type="Sprite2D" parent="."]
 self_modulate = Color(1, 0, 0.768627, 1)
-position = Vector2(128, 2)
+position = Vector2(128, 39.6359)
+scale = Vector2(1, 1.58806)
 texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(157.389, 245.088)
+scale = Vector2(2.20396, 1.58806)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon2"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(133.818, 265.733)
+rotation = -1.79756
+scale = Vector2(2.20396, 1.68286)
+skew = -1.04392
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon3"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(288.075, 123.576)
+rotation = 4.48563
+scale = Vector2(2.20396, 1.58806)
+skew = 0.785398
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon4"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon4/Icon"]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(-81.0305, -304.544)
+scale = Vector2(1, 1.58806)
+skew = -0.71733
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon4/Icon/Icon"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon5" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(-135.832, -19.1524)
+scale = Vector2(1, 1.58806)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon5"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon6" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(-106.443, 186.299)
+scale = Vector2(2.20396, 1.58806)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon6"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon7" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(-130.014, 206.944)
+rotation = -1.79756
+scale = Vector2(2.20396, 1.68286)
+skew = -1.04392
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon7"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon8" type="Sprite2D" parent="."]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(24.2424, 64.7877)
+rotation = 4.48563
+scale = Vector2(2.20396, 1.58806)
+skew = 0.785398
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon8"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon8/Icon"]
+self_modulate = Color(1, 0, 0.768627, 1)
+position = Vector2(-81.0305, -304.544)
+scale = Vector2(1, 1.58806)
+skew = -0.71733
+texture = ExtResource("1_4dtcg")
+
+[node name="Icon" type="Sprite2D" parent="Icon8/Icon/Icon"]
+position = Vector2(-48.7832, 29.4565)
+scale = Vector2(1, 0.629698)
+texture = ExtResource("1_4dtcg")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.33, 0.33)
